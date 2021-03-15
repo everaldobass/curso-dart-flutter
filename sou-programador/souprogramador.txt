@@ -1,0 +1,58 @@
+
+### Sites importantes
+https://appicon.co/
+https://icons8.com/illustrations
+https://www.vecteezy.com/
+
+
+# DESAFIO EU SOU PROGRAMADOR
+
+#Criar o projeto souprogramador
+
+##Classe main.dart, papaga todo o conteudo
+
+```
+import 'package:flutter/material.dart';
+
+void main() {
+  // Extrutura do Flutter
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          backgroundColor: Colors.blueGrey[900],
+          title: Text("Eu sou Rico"),
+        ),
+        body: Center(
+          child: Image(
+            image: AssetImage('imagens/rubi.png'),
+          ),
+        ),
+      ),
+    ),
+  );
+}
+
+
+```
+## widget_tes.dart
+
+//Desmarquei essa opção
+//await tester.pumpWidget(MyApp());
+
+
+##Criar a Pasta 
+imagens
+
+
+## publspec.yaml
+  assets:
+    - imagens/
+    
+## android
+app - res - Show in files - altera todos os diretorios - mipmap, pelos arquivos dos icones
+
+## ios
+ Runner
+ Asserts.xcassets - Show in files -  e troca a pasta

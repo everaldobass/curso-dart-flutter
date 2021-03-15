@@ -1,0 +1,20 @@
+##Get the Flutter SDK
+1-sudo snap install flutter --classic
+
+ 2-flutter sdk-path
+ 
+ 3 - flutter create flutter-crud
+
+
+control + shift + p
+
+flutter
+application new flutter
+ nome do app
+ 
+ 
+ Aula 11
+ Desafio Aplicativo eu sou um programador
+ 
+ #PolimorfismoCursoFlutter
+ 
